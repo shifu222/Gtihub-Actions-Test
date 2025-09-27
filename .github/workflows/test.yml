@@ -1,0 +1,10 @@
+name: run manually
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello from index.sh
+        run: bash ./Index.sh
